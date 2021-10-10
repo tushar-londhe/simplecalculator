@@ -2,9 +2,9 @@ package com.practice.assignment;
 
 public class SimpleCalculator
 {
-	public static float calculate(int num1, int num2, String operation)
+	public static double calculate(double num1, double num2, String operation)
 	{
-		float result = 0;
+		double result = 0;
 
 		switch(operation)
 		{

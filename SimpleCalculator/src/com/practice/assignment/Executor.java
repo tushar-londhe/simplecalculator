@@ -22,11 +22,11 @@ public class Executor
 
 			System.out.println("Please provide Number 1");
 
-			int num1 = scan.nextInt();
+			double num1 = scan.nextDouble();
 
 			System.out.println("Please provide Number 2");
 
-			int num2 = scan.nextInt();
+			double num2 = scan.nextDouble();
 
 			System.out.println("Please provide operation");
 			System.out.println("Example:");
@@ -37,7 +37,7 @@ public class Executor
 
 			String operation = scan.next();
 
-			float result = SimpleCalculator.calculate(num1, num2, operation);
+			double result = SimpleCalculator.calculate(num1, num2, operation);
 
 			System.out.println("Result = " + result);
 
